@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <body style="background-color:rgb(237, 237, 250)"><br><br>
+        <h1 style="color: black;text-align: center;">HTML Input Types</h1>
+        <center>
+            <div style="color: rgb(11, 9, 12);
+            border: 2px solid black;
+            margin: 10px;
+            padding: 10px;
+            width: 50%;">
+             <form>
+                <br>
+                <h2 style="color: red;">Birthday</h2>
+                <form action="/action_page.php">
+                    <label for="birthday">Birthday:</label>
+                    <input type="date" id="birthday" name="birthday">
+                    <input type="submit" value="Submit">
+                  </form><br>
+                  <h2 style="color: red;">Input Type Time</h2>
+                  <form action="/action_page.php">
+                    <label for="appt">Select a time:</label>
+                    <input type="time" id="appt" name="appt">
+                    <input type="submit" value="Submit">
+                  </form><br>
+                  <h2 style="color: red;">Week Selection Input</h2>
+                  <form>
+                    <label for="week">Select a week:</label>
+                    <input type="week" id="week" name="week">
+                  </form><br><br>
+              
+                <label for="quantity">Quantity (between 1 and 5):</label>
+                <input type="number" id="quantity" name="quantity" min="1" max="5">
+              </form><br><br>
+              <h2 style="color: red;">Auto complete attribute</h2>
+              <form action="/action_page.php" autocomplete="on">
+                <label for="fname">First name:</label>
+                <input type="text" id="fname" name="fname"><br>
+                <label for="lname">Last name:</label>
+                <input type="text" id="lname" name="lname"><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" autocomplete="off"><br><br>
+              </form>
+        <input type="submit"></center>
+            </div>
+            <center>
+            <form>
+                <input type="checkbox" id="Names" name="Name1" value="Names"><br>
+                <label for="sai">Sai charan</label><br>
+            </form></center>
+    </body>
+</html>

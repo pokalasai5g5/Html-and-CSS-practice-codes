@@ -1,0 +1,47 @@
+body{
+    background-color:lightgray;
+
+}
+
+#mainheading{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bold;
+    padding: 32px;
+}
+.flex-container{
+    display: flex;
+    background-color: white;
+    flex-wrap: wrap;
+    padding: 0%;
+    justify-content: center;
+}
+.flex-container > div{
+    background-color: gray;
+    margin :8px;
+    padding:2px;
+}
+.flex-container2{
+        display: flex;
+        background-color: white;
+        flex-wrap: wrap;
+        padding: 0%;
+        justify-content: center;
+    }
+    .flex-container > div{
+        background-color: gray;
+        margin :8px;
+        padding:2px;
+    
+    }   
+
+
+form{
+    padding:5px;
+    margin:5px:
+}
+label{
+    padding: auto;
+    margin: auto;
+}

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <style>
+        body{
+    background-color:lightgray;
+
+}
+
+#mainheading{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bold;
+    padding: 32px;
+}
+.flex-container{
+    display: flex;
+    background-color: white;
+    flex-wrap: wrap;
+    padding: 0%;
+    justify-content: center;
+}
+.flex-container > div{
+    background-color: gray;
+    margin :8px;
+    padding:2px;
+}
+.flex-container2{
+        display: flex;
+        background-color: white;
+        flex-wrap: wrap;
+        padding: 0%;
+        justify-content: center;
+    }
+    .flex-container > div{
+        background-color: gray;
+        margin :8px;
+        padding:2px;
+    
+    }   
+
+
+form{
+    padding:5px;
+    margin:5px;
+}
+label{
+    padding: auto;
+    margin: auto;
+}
+       </style>
+    </head>
+    <body>
+        <h1 id="mainheading">Task to arrange  HTML elements in a table format</h1>
+        <marquee style="color:black;"direction = "right">Hi! Good Morning.....</marquee>
+        <div class="flex-container">
+            <div>
+                <table style="border: 1px black;">
+                    <tr>
+                        <td><audio controls>
+                            <source src="http://techslides.com/demos/samples/sample.mp3" type="audio/mpeg">
+                        </audio></td>
+                    </tr>
+                </table> 
+            </div>
+        </div>
+        <div class="flex-container">
+            <div>
+                <form>
+                    <label for="fname">Login Id:</label>
+                    <input type="text" id="loginId" value="sai">
+                    <label for="passwaord">Password:</label>
+                    <input type="password" id="password" value="sai">
+                    <input type="radio" id="Male" name="Gender" value="Male">
+                    <label for="Male">Male</label>
+                    <input type="radio" id="Female" name="Gender" value="Female">
+                    <label for="Female">Female</label>
+                    <input type="submit" >
+                </form>
+            </div>
+        </div>
+        
+        <div class="flex-container2">
+            <div>
+                <form action="/action_page.php">
+                    <textarea id="" name="review" rows="5" cols="50"></textarea>
+                    <input type="submit" value="submit">
+                </form>
+            </div>
+        </div>
+        <div class="flex-container">
+            <div>
+                <video width="400" controls>
+                    <source src="mov_bbb.mp4" type="video/mp4">
+                    <source src="mov_bbb.ogg" type="video/ogg">
+                    Your browser does not support HTML video.
+                  </video>
+                <!-- <p>
+                    Video courtesy of 
+                    <a href="https://www.bigbuckbunny.org/" target="_blank">Big Buck Bunny</a>.
+                    </p> -->
+            </div>
+        </div>
+        <p style="text-align: right; margin-right: 10px">@sai Charan</p>
+
+    </body>
+</html>
